@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 200px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.on {
+    background-color: #dc3545; /* สีแดงสำหรับสถานะ Off */
+  }
+  
+  button.off {
+    background-color:  #28a745; /* สีเขียวสำหรับสถานะ On */
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

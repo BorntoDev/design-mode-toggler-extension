@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Design Mode Toggle",
+    "version": "1.0",
+    "description": "Toggle document.designMode on and off",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
